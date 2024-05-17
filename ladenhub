@@ -223,7 +223,7 @@ local Button = MainTab:CreateButton({
 --new tab g
 
 local MainTab = Window:CreateTab("Random", nil) -- Title, Image
- local MainSection = MainTab:CreateSection("Bed Wars")
+ local MainSection = MainTab:CreateSection("Soon!")
 
 
 local Button = MainTab:CreateButton({
