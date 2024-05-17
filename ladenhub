@@ -226,9 +226,7 @@ local Button = MainTab:CreateButton({
 local MainTab = Window:CreateTab("Cool shit", nil) -- Title, Image
  local MainSection = MainTab:CreateSection("")
 
-
- local Paragraph = MainTab:CreateParagraph({Title = "Soon ", Content = "Still Nothing Here Mate... "})
-
+ 
  local Button = MainTab:CreateButton({
     Name = "Jesus",
     Callback = function()   
