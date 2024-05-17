@@ -223,11 +223,7 @@ local Button = MainTab:CreateButton({
 --new tab g
 
 local MainTab = Window:CreateTab("Random", nil) -- Title, Image
- local MainSection = MainTab:CreateSection("Soon!")
+ local MainSection = MainTab:CreateSection("")
 
 
-local Button = MainTab:CreateButton({
-    Name = "Still Nothing Here Mate...",
-
-        
-})
+ local Paragraph = MainTab:CreateParagraph({Title = "Soon ", Content = "Still Nothing Here Mate... "})
