@@ -50,7 +50,7 @@ local Window = Rayfield:CreateWindow({
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
     end,
- })
+ })-
 
 
  local Button = MainTab:CreateButton({
@@ -107,3 +107,16 @@ local Button = MainTab:CreateButton({
         loadstring(game:HttpGet('https://sirius.menu/script'))();
     end,
 })
+
+ocal Button = MainTab:CreateButton({
+    Name = "Full Brightness",
+    Callback = function()
+        game:GetService("Lighting").Brightness = -0.7 
+    end,
+})
+
+
+--tab 2 btw
+
+local MainTab = Window:CreateTab("Scripts", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("")
