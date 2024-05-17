@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Laden Hub!",
+    Name = "Laden Hub! | @laden.exe",
     LoadingTitle = "LADEN HUB",
     LoadingSubtitle = "by Micheal Jack",
     ConfigurationSaving = {
