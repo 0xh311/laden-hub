@@ -228,3 +228,17 @@ local MainTab = Window:CreateTab("Cool shit", nil) -- Title, Image
 
 
  local Paragraph = MainTab:CreateParagraph({Title = "Soon ", Content = "Still Nothing Here Mate... "})
+
+ local Button = MainTab:CreateButton({
+    Name = "Jesus",
+    Callback = function()   
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/cjdjmj/fejesusscript/main/README.md", true))()
+    end,
+})
+
+local Button = MainTab:CreateButton({
+    Name = "Jesus V2",
+    Callback = function()   
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/jacke123/Aids-Storage/main/Bible%20GUI'))()
+    end,
+})
