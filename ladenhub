@@ -77,6 +77,15 @@ local Window = Rayfield:CreateWindow({
 })
 
 
+local Button = MainTab:CreateButton({
+    Name = "R3TH",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
+    end,
+})
+
+
+
 local MainSection = MainTab:CreateSection("Squid Game")
 
 local Button = MainTab:CreateButton({
